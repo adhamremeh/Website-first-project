@@ -1,0 +1,86 @@
+body{
+    background: #c28f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    background: #2b3e4d;
+    height: 80px;
+    padding: 3px;
+}
+
+.LeftNav{
+    float: left;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: -3px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.RightNav{
+    float: right;
+    margin: 17px;
+    margin-top: 15px;
+    padding-right: 38px;
+}
+.rightNavLi li{
+    display: inline-block;
+    margin-left: 45px;
+    list-style-type: none;
+    font-size: 120%;
+}
+
+.RightNav a{
+    text-decoration: none;
+    color: #fff;
+}
+.MoreDrop-content{
+    display: none;
+    padding-top: 65px;
+    text-align: center;
+    margin: -25px;
+    margin-top: -10px;
+    float: right;
+    margin-left:  358px;
+    z-index: 500;
+    position: absolute;
+}
+.MoreDrop-content:hover{
+    display: block;
+}
+
+ul#MoreB:hover + .MoreDrop-content{
+    display: block;
+}
+ul#MoreB{
+    height: 0px;
+    width: 0px;
+    margin: -12px;
+    position: relative;
+    bottom: 9px;
+    left: 355px;
+    opacity: 0;
+    background-color: #000;
+}
+
+.MoreDrop-content li{
+    padding: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin: 0px;
+    list-style-type: none;
+    background: #2b3e4d;
+}
+.MoreDrop-content li:hover {
+    background-color: #2596be
+}
+
+footer{
+    clear: both;
+    background: #2b3e4d;
+    margin-top: 0px;
+    text-align: center;
+    padding:  50px;
+    color: #fff;
+}

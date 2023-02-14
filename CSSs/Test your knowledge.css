@@ -1,0 +1,93 @@
+body{
+    background: #5581a3;
+}
+.BackGround{
+    background-image: url("https://nextgenedition.com/wp-content/uploads/2019/01/iStock-695160826.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.3;
+}
+
+.QuizTime{
+    height: 300px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.QuizTime img{
+    height: 180px;
+    width: 180px;
+    padding: 18px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.img2{
+    position: absolute;
+    margin-right: 30px;
+    left: 1245px;
+    z-index: -25;
+}
+.QuizTimeHead{
+    text-align: center;
+    font-size: 225%;
+    position: relative;
+    bottom: 200px;
+    z-index: -30;
+}
+.QuizTimeParagraph{
+    text-align: center;
+    font-size: 135%;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.Quiz{
+    height: 1068px;
+    font-family: sans-serif;
+    background: #1a4668;
+    opacity: 0.95;
+    color: #fff;
+}
+.QuizHead{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 230%;
+}
+.Quiz p{
+    font-size: 140%;
+    margin-top: 30px;
+}
+.Quistions{
+    margin-left: 50px;
+}
+.Quistions label{
+    margin-left: 2px;
+}
+.Quistions input{
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+.Submit{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    width: 110px;
+    height: 40px;
+    font-size: 130%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #c0c0c0;
+    color: #000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Score{
+    margin-left: 685px;
+}

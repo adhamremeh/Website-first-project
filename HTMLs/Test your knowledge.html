@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title> Test your knowledge </title>
+        <link rel="stylesheet" href="..\CSSs\Layout.css" >
+        <link rel="stylesheet" href="..\CSSs\Test your knowledge.css" >
+        <link rel="icon" href="..\Assets\Test your knowledge.png">
+        <script type="text/javascript">
+            var Grade;
+            
+            function QuizGrade() {
+                var Q1 = document.getElementsByName('Q1R');
+                var Q1Val;
+                for(var i = 0; i < Q1.length; i++){
+                    if(Q1[i].checked){
+                        Q1Val = Q1[i].value;
+                    }
+                }
+                var Q2 = document.getElementsByName('Q2R');
+                var Q2Val;
+                for(var i2 = 0; i2 < Q2.length; i2++){
+                    if(Q2[i2].checked){
+                        Q2Val = Q2[i2].value;
+                    }
+                }
+                var Q3 = document.getElementsByName('Q3R');
+                var Q3Val;
+                for(var i3 = 0; i3 < Q3.length; i3++){
+                    if(Q3[i3].checked){
+                        Q3Val = Q3[i3].value;
+                    }
+                }
+                var Q4 = document.getElementsByName('Q4R');
+                var Q4Val;
+                for(var i4 = 0; i4 < Q4.length; i4++){
+                    if(Q4[i4].checked){
+                        Q4Val = Q4[i4].value;
+                    }
+                }
+                var Q5 = document.getElementsByName('Q5R');
+                var Q5Val;
+                for(var i5 = 0; i5 < Q5.length; i5++){
+                    if(Q5[i5].checked){
+                        Q5Val = Q5[i5].value;
+                    }
+                }
+                
+                Grade = parseInt(Q1Val) + parseInt(Q2Val) + parseInt(Q3Val) + parseInt(Q4Val) + parseInt(Q5Val); 
+                document.getElementById("FinalGrade").innerHTML = Grade + " / 10";
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div class="BackGround"></div>
+        <div class="Header">
+            <div class="LeftNav">
+                <h1> Office 365 Guide </h1>
+            </div>
+            <div class="RightNav">
+                <ul>
+                    <ul class="rightNavLi">
+                        <li><a href=".\Home.html"> Home </a></li>
+                        <li><a href=".\About Us.html"> About Us </a></li>
+                        <li><a href=".\Microsoft.html"> Microsoft </a></li>
+                        <li><a href=""> More </a></li>
+                    </ul>
+                    <ul class="rightNavLi" id="MoreB">
+                        <li><a> More </a></li>
+                    </ul>
+                    <ul class="MoreDrop-content">
+                        <li><a href=".\Customer Service.html"> Customer <br>Service </a></li>
+                        <li><a href=".\PowerPoint.html"> PowerPoint </a></li>
+                        <li><a href=".\Download PowerPoint.html"> Download <br>PowerPoint </a></li>  
+                        <li><a href=".\Word.html"> Word </a></li>
+                        <li><a href=".\More Of Word.html"> More <br>Of <br>Word </a></li>
+                        <li><a href=".\Outlook.html"> Outlook </a></li>
+                        <li><a href=".\Microsoft Stream.html"> Microsoft <br>Stream </a></li>
+                        <li><a href=".\Excel.html"> Excel </a></li>
+                        <li><a href=".\Test your knowledge.html"> Test <br>your <br>knowledge </a></li>
+                    </ul>
+                </ul>
+            </div>  
+        </div>
+        
+        <div class="QuizTime">
+            <img src="..\Assets\Test your knowledge.png" alt="Mark">
+            <img src="..\Assets\Test your knowledge.png" alt="Mark" class="img2">
+            <h1 class="QuizTimeHead"> Quiz Time </h1>
+            <p class="QuizTimeParagraph">
+                By browsing our website and explore all the pages, you should know alot about microsoft Right ?
+                <br>what about testing your knowledge to see do you know microsoft well !!!
+            </p>
+        </div>
+        <div class="Quiz">
+            <h1 class="QuizHead"> Quiz about microsoft </h1>
+            <div class="Quistions">
+                <div class="Q1">
+                    <p> Which of the following is not a part of a standard office suite? </p>
+                        <span class="Check"><input type="radio" name="Q1R" value="0" /></span>
+                        <label for="Q1R"> Microsoft Word </label><br>
+                        <input type="radio" name="Q1R" value="0" />
+                        <label for="Q1R"> Microsoft Excel </label><br>
+                        <input type="radio" name="Q1R" value="2" />
+                        <label for="Q1R"> Microsoft Cloud </label><br>
+                </div>
+                <div class="Q2">
+                    <p> Outlook Express is a _____ </p>
+                        <input type="radio" name="Q2R" value="2" />
+                        <label for="Q2R"> E-Mail Client </label><br>
+                        <input type="radio" name="Q2R" value="0" />
+                        <label for="Q2R"> Scheduler </label><br>
+                        <input type="radio" name="Q2R" value="0" />
+                        <label for="Q2R"> Image Editor </label><br>
+                </div>
+                <div class="Q3">
+                    <p> Which key should be pressed to start a new paragraph in MS Word? </p>
+                        <input type="radio" name="Q3R" value="0" />
+                        <label for="Q3R"> Shift + Enter </label><br>
+                        <input type="radio" name="Q3R" value="2" />
+                        <label for="Q3R"> Enter Key </label><br>
+                        <input type="radio" name="Q3R" value="0" />
+                        <label for="Q3R"> Control + Enter </label><br>
+                </div>
+                <div class="Q4">
+                    <p> Which option in File pull-down menu is used to close a file in MS Word? </p>
+                        <input type="radio" name="Q4R" value="2" />
+                        <label for="Q4R"> Close </label><br>
+                        <input type="radio" name="Q4R" value="0" />
+                        <label for="Q4R"> New </label><br>
+                        <input type="radio" name="Q4R" value="0" />
+                        <label for="Q4R"> Exit </label><br>
+                </div>
+                <div class="Q5">
+                    <p> Which of the following is a popular DOS based spreadsheet package? </p>
+                        <input type="radio" name="Q5R" value="0" />
+                        <label for="Q5R"> Word </label><br>
+                        <input type="radio" name="Q5R" value="0" />
+                        <label for="Q5R"> PowerPoint </label><br>
+                        <input type="radio" name="Q5R" value="2" />
+                        <label for="Q5R"> Excel </label><br>
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="Submit" onclick="QuizGrade();">
+            
+            <p class="Score"> Score : <a id="FinalGrade"></a></p>
+        </div>
+        
+        <footer>
+            @2021 copyright <br>
+            this is the officers project
+        </footer>
+        
+    </body>
+</html>

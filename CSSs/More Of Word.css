@@ -1,0 +1,28 @@
+body{
+    background-color: #97d2ff;
+}
+.BackGround{
+    background-image: url("https://www.dignited.com/wp-content/uploads/2018/01/word-2016-1024x576.png");
+    background-repeat: no-repeat;
+    background-size: 1535px 710px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.1;
+}
+
+.WordVersions{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 260px;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Form{
+    height: 400px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #1a4668;
+    color: #fff;
+    padding-top: 40px;
+}

@@ -1,0 +1,56 @@
+body{
+    background-color: #ffd1c6;
+}
+.BackGround{
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2019/07/stock-lede-microsoft-office-powerpoint-1.png?height=200p&trim=2,2,2,2");
+    background-repeat: no-repeat;
+    background-size: 1535px 1010px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.25;
+}
+.Header{
+    background: #4e322c;
+    height: 80px;
+    padding: 3px;
+}
+.MoreDrop-content li{
+    padding: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin: 0px;
+    list-style-type: none;
+    background: #4e322c;
+}
+
+.Download{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 260px;
+    color: #000;
+    padding-top: 10px;
+}
+.SignUp{
+    height: 400px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #822c18;
+    color: #fff;
+    padding-top: 40px;
+}
+.Vid{
+    height: 410px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    background: #4e322c;
+    margin-top: 0px;
+    text-align: center;
+    padding:  50px;
+    color: #fff;
+}

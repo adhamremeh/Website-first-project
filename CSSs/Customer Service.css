@@ -1,0 +1,56 @@
+body{
+    background-color: #fff;
+}
+.BackGround{
+    background-image: url("https://medatech.com/wp-content/uploads/2017/11/Website-Background.png");
+    background-repeat: no-repeat;
+    background-size: 1535px 710px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.1;
+}
+
+.Head{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 20px;
+    font-size: 130%;
+    text-align: center;
+}
+.ServicesParagraph{
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 270px;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Vid{
+    height: 640px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #1a4668;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.Plans{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 435px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.additionalINFO{
+    height: 170px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    background: #1a4668;
+    text-align: center;
+}

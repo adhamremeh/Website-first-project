@@ -1,0 +1,77 @@
+body{
+    background-color: #fff;
+}
+.BackGround{
+    background-image: url("https://wallpapertag.com/wallpaper/full/e/9/0/973472-download-free-office-desktop-background-1920x1080-for-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: 1535px 800px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.2;
+}
+
+.Head{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 20px;
+    font-size: 130%;
+    text-align: center;
+}
+.AboutPage{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 90%;
+}
+.AboutMicrosoft{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 250px;
+    color: #fff;
+    padding-top: 10px;
+    background: #1a4668;
+    font-weight: 500;
+}
+.Features{
+    height: 400px;
+    font-weight: 500;
+    font-size: 130%;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+}
+.VS{
+    position: absolute;
+    left: 750px;
+    top: 610px;
+    width: 480px;
+    height: 280px;
+    border: double;
+    border-width: 10px;
+    border-color: #1a4668;
+}
+.Features h2{
+    margin-left: 70px;
+}
+.Features li{
+    margin-left: 75px;
+    font-weight: bold;
+}
+
+.MoreAboutMicrosoft{
+    height: 310px;
+    font-weight: 500;
+    font-size: 130%;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 10px;
+}
+.Table{
+    height: 320px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+

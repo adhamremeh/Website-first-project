@@ -1,0 +1,42 @@
+body{
+    background-color: #97d2ff;
+}
+.BackGround{
+    background-image: url("https://cdn.guidingtech.com/media/assets/2019/05/_1200x630_crop_center-center_82_none/Image-Best-Microsoft-Word-Online-Tips-and-Tricks-2.png?mtime=1558677365");
+    background-repeat: no-repeat;
+    background-size: 1535px 710px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.1;
+}
+
+.Head{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 20px;
+    font-size: 130%;
+}
+.AboutWord{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 270px;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.List{
+    height: 260px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #1a4668;
+    color: #fff;
+}
+.Vid{
+    height: 670px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,72 @@
+body{
+    background-color: #ffb6cf;
+}
+.BackGround{
+    background-image: url("https://s36505.pcdn.co/wp-content/uploads/2021/03/Viva-GENERIC-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1535px 1010px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.2;
+}
+
+.Header{
+    background: #472b3a;
+    height: 80px;
+    padding: 3px;
+}
+.MoreDrop-content li{
+    padding: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin: 0px;
+    list-style-type: none;
+    background: #472b3a;
+}
+
+.Head{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100px;
+    color: #fff;
+    background: #57243f;
+    padding-top: 20px;
+    font-size: 130%;
+}
+.AboutStream{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 440px;
+    color: #000;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.VersionsOfStream{
+    height: 320px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #57243f;
+    color: #fff;
+    padding-top: 40px;
+}
+.StreamVid{
+    height: 600px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 30px;
+}
+.Steps{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 330px;
+    background: #57243f;
+    color: #fff;
+    padding-top: 1px;
+}
+
+footer{
+    clear: both;
+    background: #472b3a;
+    margin-top: 0px;
+    text-align: center;
+    padding:  50px;
+    color: #fff;
+}

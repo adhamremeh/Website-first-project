@@ -1,0 +1,170 @@
+body{
+    background-color: #599969;
+}
+.BackGround{
+    background-image: url("https://professor-excel.com/wp-content/uploads/2016/01/Wallpaper_Excel_1-1.png");
+    background-repeat: no-repeat;
+    background-size: 1535px 1010px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.2;
+}
+.Header{
+    background: #2f4534;
+    height: 80px;
+    padding: 3px;
+}
+.MoreDrop-content li{
+    padding: 15px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    margin: 0px;
+    list-style-type: none;
+    background: #2f4534;
+}
+
+.Head{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100px;
+    color: #fff;
+    background: #426d4c;
+    padding-top: 20px;
+    font-size: 130%;
+}
+
+.AboutExcel{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 430px;
+    color: #000;
+    font-weight: 500;
+}
+.AboutExcel img{
+    height: 400px;
+    width: 400px;
+    padding: 18px;
+    margin-left: 70px;
+}
+.AboutHead{
+    font-size: 230%;
+    position: relative;
+    left: 915px;
+    bottom: 370px;
+    width: 300px;
+    z-index: -30;
+}
+.AboutParagraph{
+    font-size: 140%;
+    margin-left: 605px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 350px;
+    z-index: -9;
+}
+
+
+.UsesOfExcel{
+    height: 430px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #426d4c;
+    color: #fff;
+    font-weight: 500;
+}
+.UsesOfExcelHead{
+    text-align: center;
+    padding-top: 32px;
+    margin: 0px;
+    padding-bottom: 10px;
+    margin-right: 735px;
+    font-size: 230%;
+}
+.UsesOfExcel iframe{
+    position: absolute;
+    border: hidden;
+    left: 890px;
+    top: 672px;
+    height: 357px;
+    width: 469px;
+}
+.UsesUlHead{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    font-size: 140%;
+}
+.UsesOfExcel ul{
+    margin: 0px;
+    margin-left: 200px;
+    font-size: 140%;
+}
+.UsesOfExcel p{
+    margin-left: 200px;
+    font-size: 140%;
+    margin-top: 5px;
+}
+
+
+.QuickTutorial{
+    height: 430px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+.QuickTutorial img{
+    position: absolute;
+    left: 50px;
+    top: 1100px;
+    height: 357px;
+    width: 469px;
+    margin-left: 70px;
+}
+.QuickTutorialHead{
+    text-align: center;
+    padding-top: 57px;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 230%;
+    margin-left: 680px;
+    font-size: 230%;
+}
+.QuickOlHead{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    font-size: 140%;
+}
+.QuickTutorial ol{
+    margin: 0px;
+    margin-left: 680px;    
+    font-size: 140%;
+}
+
+
+.BeginnersGuide{
+    height: 430px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #426d4c;
+    text-align: center;
+    color: #fff;
+}
+.BeginnersGuide h1{
+    padding-top: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 230%;
+}
+.BeginnersGuide iframe{
+    height: 310px;
+    width: 546px;
+    border: none;
+}
+
+footer{
+    clear: both;
+    background: #2f4534;
+    margin-top: 0px;
+    text-align: center;
+    padding:  50px;
+    color: #fff;
+}

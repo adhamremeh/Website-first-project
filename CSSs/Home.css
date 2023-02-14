@@ -1,0 +1,168 @@
+body{
+    background: #c2c2c2;
+}
+
+.BackGround{
+    background-image: url("https://www.expand-global.com/sites/default/files/content_office.png");
+    background-repeat: no-repeat;
+    background-size: 1535px 810px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.1;
+}
+
+.StartHead{
+    text-align: center;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 700px;
+    color: #fff;
+    padding-top: 20px;
+    background: #1a4668;
+    z-index: 20;
+    font-size: 130%;
+    text-align: center;
+    position: relative;
+}
+.StartHead img{
+    position: absolute;
+}
+
+.Excelimg{
+    left: 150px;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+.Excelimg:hover {
+    transform: rotate(360deg);
+}
+.Streamimg{
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+.Streamimg:hover {
+    transform: rotate(360deg);
+}
+.Wordimg{
+    left: 1150px;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+.Wordimg:hover {
+    transform: rotate(360deg);
+}
+.Outlookimg{
+    top: 50px;
+    left: 150px;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+.Outlookimg:hover {
+    transform: rotate(360deg);
+}
+.PowerPointimg{
+    top: 50px;
+    left: 1150px;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+.PowerPointimg:hover {
+    transform: rotate(360deg);
+}
+.Microsoftimg{
+    top: 50px;
+    left: 620px;
+    height: 200px;
+    width: 260px;
+    transition: 2s;
+}
+.Microsoftimg:hover {
+    transform: rotate(360deg);
+}
+.Rarrow{
+    top: 500px;
+    left: 950px;
+    height: 80px;
+    width: 80px;
+    transition: 2s;
+    transform: scale(1.8, 1.8);
+}
+.Larrow{
+    top: 500px;
+    left: 470px;
+    height: 80px;
+    width: 80px;
+    transform: scale(1.8, 1.8);
+    transition: transform 2s;
+}
+.Null{
+    height: 100px;
+}
+.Microsoft{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 470px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.PowerPoint{
+    height: 470px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.Word{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 470px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Outlook{
+    height: 470px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.Stream{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 470px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.Excel{
+    height: 470px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    padding-top: 10px;
+}
+.Quiz{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 470px;
+    color: #fff;
+    background: #1a4668;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #0078d4;
+    color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;
+}

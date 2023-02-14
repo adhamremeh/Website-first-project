@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Customer Service </title>
+        <link rel="stylesheet" href="..\CSSs\Layout.css" >
+        <link rel="stylesheet" href="..\CSSs\Customer Service.css" >
+        <link rel="icon" href="..\Assets\Microsoft Icon.png">
+       
+        <script>
+            function myFunction() {
+              location.assign("https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products");
+            }
+        </script>
+        <style>
+          body {
+            background-image: url("https://medatech.com/wp-content/uploads/2017/11/Website-Background.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+          }
+          form{
+            font-size:25px;
+            font-weight: bold;
+          }
+          
+          .button {
+            text-decoration: none;
+            background-color: #0078d4;
+            color: white;
+            display: inline-block;
+            padding: 8px 16px;
+            justify-content: center;
+            align-items: center;
+            background-size: auto;
+          }
+          .button:hover{
+            background-color: #0078d4 ;
+            color: black;
+          }
+          
+          .round {
+            border-radius: 50%;
+          }
+
+        </style>
+    </head>
+    <body>
+        <div class="Header">
+            <div class="LeftNav">
+                <h1> Office 365 Guide </h1>
+            </div>
+            <div class="RightNav">
+                <ul>
+                    <ul class="rightNavLi">
+                        <li><a href=".\Home.html"> Home </a></li>
+                        <li><a href=".\About Us.html"> About Us </a></li>
+                        <li><a href=".\Microsoft.html"> Microsoft </a></li>
+                        <li><a href=""> More </a></li>
+                    </ul>
+                    <ul class="rightNavLi" id="MoreB">
+                        <li><a> More </a></li>
+                    </ul>
+                    <ul class="MoreDrop-content">
+                        <li><a href=".\Customer Service.html"> Customer <br>Service </a></li>
+                        <li><a href=".\PowerPoint.html"> PowerPoint </a></li>
+                        <li><a href=".\Download PowerPoint.html"> Download <br>PowerPoint </a></li>  
+                        <li><a href=".\Word.html"> Word </a></li>
+                        <li><a href=".\More Of Word.html"> More <br>Of <br>Word </a></li>
+                        <li><a href=".\Outlook.html"> Outlook </a></li>
+                        <li><a href=".\Microsoft Stream.html"> Microsoft <br>Stream </a></li>
+                        <li><a href=".\Excel.html"> Excel </a></li>
+                        <li><a href=".\Test your knowledge.html"> Test <br>your <br>knowledge </a></li>
+                    </ul>
+                </ul>
+            </div>  
+        </div>
+
+        
+        <div class="Head">
+            <h1 style="margin-top: 10px;"> Microsoft Services </h1>
+        </div>
+        <div class="ServicesParagraph">
+            <h2> Services </h2>
+            <h2>
+                Microsoft turned out to be a very succesful company not only by just making a world class application software like office and 365 but also at managing their success and do even better in many aspects including: customer care, managing bundle deals and prices, making an official blog and helping the user reach his goal by describing his own thoughts freely.<br><br>
+                Microsoft proved to be great at handling the customers' after sale needs.
+            </h2>
+        </div>
+        <div class="Vid">
+            <h2 style="padding-bottom: 10px;"> They also help demonstarte the difference between programs by making simple and useful videos like this one here: </h2>
+            <iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4t1lL?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us" width="900" height="500"></iframe><br>
+        </div>
+        <div class="Plans"> 
+            <p style="font-size: 130%; font-weight: 700;">Mcrosoft made several plans for different users that help them save money and achieve their goals as effeciently as possible so here are 3 plans from which you can choose whatever one you want simply by pressing check it out.:</p>
+            <form action="/action_page.php">
+              <input type="radio" id="home plan" name="plan" value="home plan">
+              <label for="home plan"> I prefer the home plan starting from:$69.99/year to $99.99/year.</label><br>
+              <input type="radio" id="business plan" name="plan" value="business plan">
+              <label for="business plan"> I prefer the business plan starting from:$5/year to $20/month (annual commitment is something to put in consideration as it might change your opinion).</label><br>
+              <input type="radio" id="enterprise plane" name="plan" value="enterprise plan">
+              <label for="enterprise plan"> I prefer the enterprise plan for large comapnies providing:$30 million estimated three-year benefit for a composite 7,000-employee organization/12,500 hours
+              an organization can save per year in distribution activities/97%
+              of attacks that are automatically remediated on endpoints by using AI within Microsoft 365.</label><br>
+              <input class="button" style="margin-left: 30px; margin-top: 18px;" type="button" value="check it out" onclick="myFunction();">
+            </form><br>
+           <p style="font-weight: 500; font-size: 130%; margin-top: 0px;">you can contact microsoft for additional info by clicking contact microsoft: <a href="https://support.microsoft.com/en-us/contactus">Contact Microsoft</a><br><br></p>
+        </div>
+        <div class="additionalINFO">
+        <p style="font-size: 150%;"> for additional information about microsoft: </p>
+          <form action="/action_page.php">
+            <label for="Email">Enter your E-Mail here:</label>
+            <input type="text" id="Email" name="Email" style="height: 30px; width: 200px;">
+            <input type="submit" value="Send" class="button">
+          </form><br>
+        </div>
+        <footer>
+            @2021 copyright <br>
+            This is the Office 365 Ultimate guide
+        </footer>
+    </body>
+</html>

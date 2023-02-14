@@ -1,0 +1,75 @@
+body{
+    background: #c28f8;
+}
+.BackGround{
+    background-image: url("http://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px 800px;
+    height: 2000px;
+    width: 2000px;
+    z-index: -50;
+    position: fixed;
+    opacity: 0.48;
+}
+
+.Us{
+    text-align: center;
+}
+.Us li{
+    list-style-type: none;
+    height: 700px;
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin-left: 70px;
+    margin: 60px;
+    text-align: center;
+}
+
+.Us img{
+    height: 620px;
+    width: 500px;
+    position: absolute;
+    opacity: 0.5;
+    right: 0px;
+    bottom: 86px;
+}
+
+.Container{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 280px;
+}
+.ContainerBio{
+    height: 400px;
+    width: 500px;
+    background-color: #2b3e4d;
+    position: relative;
+}
+.Container h2{
+    padding-top: 90px;
+    font-size: 200%;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.Container p{
+    padding-top: 20px;
+    font-size: 120%;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+.Container a{
+    color: #fff;
+}
+
+.Embaby{
+    
+}
+.Adham{
+    
+}
+.Fathalla{
+    
+}
+
